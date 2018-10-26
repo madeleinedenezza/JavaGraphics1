@@ -67,30 +67,30 @@ public class JavaGraphics1 extends Canvas
 //    				}
 //    		graphics.fillRect(0, 0, widthLength, widthLength);
      		
-     		Boolean isStillGoing = true;
-     		while (isStillGoing = true)
-     			{
-     			for (int i = 0; i < 380; i++)
-     				{
-             		graphics.setColor(Color.magenta);
-             		graphics.fillRect(i , 0, 20, 20);
-             		
-             		delay();
-             		
-             		graphics.setColor(Color.white);
-             		graphics.fillRect(i, 0, 20, 20);
-     				}
-     			for (int j = 379; j > 20; j--)
-     				{
-             		graphics.setColor(Color.magenta);
-             		graphics.fillRect(j , 0, 20, 20);
-             		
-             		delay();
-             		
-             		graphics.setColor(Color.white);
-             		graphics.fillRect(j, 0, 20, 20);
-     				}
-     			}
+//     		Boolean isStillGoing = true;
+//     		while (isStillGoing = true)
+//     			{
+//     			for (int i = 0; i < 380; i++)
+//     				{
+//             		graphics.setColor(Color.magenta);
+//             		graphics.fillRect(i , 0, 20, 20);
+//             		
+//             		delay();
+//             		
+//             		graphics.setColor(Color.white);
+//             		graphics.fillRect(i, 0, 20, 20);
+//     				}
+//     			for (int j = 379; j > 20; j--)
+//     				{
+//             		graphics.setColor(Color.magenta);
+//             		graphics.fillRect(j , 0, 20, 20);
+//             		
+//             		delay();
+//             		
+//             		graphics.setColor(Color.white);
+//             		graphics.fillRect(j, 0, 20, 20);
+//     				}
+//     			}
 
      		
      		
@@ -111,17 +111,17 @@ public class JavaGraphics1 extends Canvas
 //     				}
 //     			}
      		
-//     		for (int red = 0 ; red < 255 ; red++)
-//     			{
-//     			for (int blue = 0 ; blue < 255 ; blue++)
-//     				{
-//     				for (int green = 0; green < 255 ; green++)
-//     					{
-//     					graphics.setColor(new Color(red, green, blue));
-//     	     			graphics.fillRect(0, 0, 300, 300);
-//     					}
-//     				}
-//     			}
+     		for (int red = 0 ; red < 255 ; red++)
+     			{
+     			for (int blue = 0 ; blue < 255 ; blue++)
+     				{
+     				for (int green = 0; green < 255 ; green++)
+     					{
+     					graphics.setColor(new Color(red, green, blue));
+     	     			graphics.fillRect(0, 0, 300, 300);
+     					}
+     				}
+     			}
      			
     			}
 //    
